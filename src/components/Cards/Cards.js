@@ -17,7 +17,7 @@ const Cards = () => {
               xs={12}
               key={item.id}>
                 <Card
-                  className="text-center card-design"
+                  className="text-center card-design mb-5 ml-auto"
                   style={{ width: '18rem' }}>
                 <Card.Body>
                     <p className="price-tag"><b>${item.price}</b></p>

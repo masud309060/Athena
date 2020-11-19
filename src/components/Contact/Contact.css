@@ -1,0 +1,10 @@
+.inputs{
+    width:80%;
+    border: none;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    height: 45px;
+}
+.buttons{
+    background-image: linear-gradient(to right, #1CD7BB, #08AFE9);
+    border:none;
+}

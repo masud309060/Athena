@@ -1,0 +1,17 @@
+.project{
+  background-color: #FAFFFD;
+}
+.p-img{
+  width: 90%;
+}
+.p-text{
+    margin-top: 23%;
+}
+.button{
+   border-top-left-radius: 20px;
+   border: none;
+   border-bottom-right-radius: 20px;
+  background-image: linear-gradient(to right, #1CD7BB, #08AFE9);
+  width:130px;
+  height:40px;
+}

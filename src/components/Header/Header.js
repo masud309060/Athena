@@ -1,11 +1,13 @@
 import React from 'react';
 import headerImg from '../../images/Illustration/16 [Converted]@2x.png';
+import NavBar from '../Navbar/Navbar';
 import './Header.css'
 
 
 const Header = () => {
   return (
     <div className="main-header">
+      <NavBar></NavBar>
         <div className="container">
           <div className="row mt-5">
             <div className="col-md-6 mb-5">

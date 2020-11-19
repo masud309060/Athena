@@ -1,0 +1,35 @@
+.footer-image{
+  height: 100px;
+  width: 50%;
+  font-family: 'Lato', sans-serif;
+}
+.footer-image img{
+  height: 100%;
+  width: 100%;
+}
+.footer{
+  color:white;
+}
+.footer-list{
+  list-style-type:none;
+}
+
+a {
+  color:black!important;
+  text-decoration: none;
+}
+a:hover{
+
+  text-decoration: none!important;
+}
+.headline-footer{
+  font-weight: bold;
+}
+
+.footer-social {
+  padding-left: 0px!important;
+}
+.footer-social li{
+  display: inline;
+  padding: 5px;
+}

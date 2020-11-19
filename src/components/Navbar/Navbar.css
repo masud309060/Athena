@@ -1,0 +1,11 @@
+
+.btn-brand {
+  border-radius: 20px 0 20px 0;
+  height: 50px;
+  width: 150px;
+  border: 0;
+  background-image: linear-gradient(90deg,#1ddab7, #10c9d9 , #07adeb);
+  color: white;
+
+
+}

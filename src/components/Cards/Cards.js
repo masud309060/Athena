@@ -5,7 +5,7 @@ import './Cards.css';
 
 const Cards = () => {
   return (
-    <div className="team">
+    <div className="team" id="pricing">
       <Container className="text-center">
       <h3 className="m-5">Choose Your Dedicated Team</h3>
         <Row className="d-flex justify-content-center">

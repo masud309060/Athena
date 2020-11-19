@@ -12,8 +12,8 @@ const Contact = () => {
                                 <p className="text-center text-secondary">Be the first know our latest offers and updates!</p>
                             </div>
                             <div className="contact-form d-flex">
-                                <input className="inputs form-control rounded mt-5" placeholder="Enter your email address" etype="text"/>
-                                <button className="btn btn-primary buttons mt-5">Get Started</button>
+                                <input className="email-input form-control" placeholder="Enter your email address" etype="text"/>
+                                <button className="btn buttons">Get Started</button>
                             </div>
                         </div>
                     </div>

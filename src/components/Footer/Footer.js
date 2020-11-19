@@ -6,9 +6,9 @@ import { faBehance, faDribbble, faFacebook, faLinkedinIn, faTwitter } from '@for
 
 
 const Footer = () => {
-  let url = ""
   return (
-    <Container id="contact" className="footer p-5 m-5">
+    <div className="container">
+      <Container id="contact" className="footer p-5 m-5">
       <Row>
         <Col md={4}>
           <div className="footer-image">
@@ -16,35 +16,35 @@ const Footer = () => {
           </div>
           <ul className="footer-social mt-3">
                   <li>
-                    <a href={url}>
+                    <a href="#">
                       <FontAwesomeIcon
                         style={{ fontSize: "25px", color:"#838585"}}
                         icon={faFacebook} />
                     </a>
                   </li>
                   <li>
-                    <a href={url}>
+                    <a href="#">
                       <FontAwesomeIcon
                         style={{ fontSize: "25px", color:"#838585"}}
                         icon={faTwitter} />
                     </a>
                   </li>
                   <li>
-                    <a href={url}>
+                    <a href="#">
                       <FontAwesomeIcon
                         style={{ fontSize: "25px", color:"#838585"}}
                         icon={faLinkedinIn} />
                     </a>
                   </li>
                   <li>
-                    <a href={url}>
+                    <a href="#">
                       <FontAwesomeIcon
                         style={{ fontSize: "25px", color:"#838585"}}
                         icon={faBehance} />
                     </a>
                   </li>
                   <li>
-                    <a href={url}>
+                    <a href="#">
                       <FontAwesomeIcon
                         style={{ fontSize: "25px", color:"#838585" }}
                         icon={faDribbble} />
@@ -56,31 +56,32 @@ const Footer = () => {
           <Row>
             <Col md={4}>
               <ul className="footer-list">
-                <li><a href={url}>Features</a></li>
-                <li><a href={url}>Enterprise</a></li>
-                <li><a href={url}>Pricing</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Pricing</a></li>
               </ul>
             </Col>
             <Col md={4}>
               <ul className="footer-list">
-                <li><a href={url}>Blog</a></li>
-                <li><a href={url}>Help Center</a></li>
-                <li><a href={url}>Contact Us</a></li>
-                <li><a href={url}>Status</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Status</a></li>
               </ul>
             </Col>
             <Col md={4}>
             <ul className="footer-list">
-                <li><a href={url}>About Us</a></li>
-                <li><a href={url}>Terms of Service</a></li>
-                <li><a href={url}>Security</a></li>
-                <li><a href={url}>Login</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Login</a></li>
               </ul>
             </Col>
           </Row>
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

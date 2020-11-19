@@ -1,10 +1,19 @@
-.inputs{
-    width:80%;
-    border: none;
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
-    height: 45px;
+
+
+.email-input{
+    border: none !important;
+    background-color: none !important;
+    
 }
-.buttons{
+.buttons {
     background-image: linear-gradient(to right, #1CD7BB, #08AFE9);
-    border:none;
+    border: 0 !important;
+    color: white !important;
+    outline: none;
+}
+.contact-form {
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 1px 2px 15px lightgray;
+    background-color: white;
 }

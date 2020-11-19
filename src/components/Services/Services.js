@@ -33,7 +33,7 @@ const Services = () => {
     },
   ]
   return (
-    <div className="container mb-5">
+    <div className="container mb-5" id="services">
       <div className="services-heading">
         <h2 className="my-3">What we do</h2>
         <p>Our main focus is to make the User Experience very simple and easy. Simplicity is our Strength.</p>

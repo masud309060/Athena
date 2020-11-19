@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+
+import Header from './components/Header/Header';
+import Services from './components/Services/Services';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Cards from './components/Cards/Cards';
@@ -11,6 +13,8 @@ function App() {
     <div>
       <Cards></Cards>
       <Footer></Footer>
+      <Header></Header>
+      <Services></Services>
       <Project></Project>
       <Achievements></Achievements>
       <Contact></Contact>

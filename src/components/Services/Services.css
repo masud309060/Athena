@@ -1,0 +1,32 @@
+.services-heading {
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.services-heading h2 {
+  font-family: 'Yeseva One', cursive;
+  color: #0D052E;
+}
+
+.services-card {
+  width: 16rem;
+  padding: 20px;
+  border-radius: 50px 0 50px 0;
+  text-align: center;
+  transition: .5s;
+}
+
+.services-card:hover {
+  background-color: white;
+  box-shadow: 0 2px 15px lightgray;
+}
+
+.services-card h5 {
+  font-size: 1.25rem;
+  color: #34285C;
+}
+
+.services-card img{
+  width: 80px;
+}

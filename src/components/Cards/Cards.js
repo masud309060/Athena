@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div className="team" id="pricing">
       <Container className="text-center">
-      <h3 className="m-5">Choose Your Dedicated Team</h3>
+      <h3 className="my-5 py-5">Choose Your Dedicated Team</h3>
         <Row className="d-flex justify-content-center">
           {
             data.map(item =>

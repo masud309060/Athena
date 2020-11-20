@@ -1,9 +1,10 @@
 import React from 'react';
 import './Contact.css'
+import { Container, Row } from 'react-bootstrap';
 const Contact = () => {
     return (
-        <section className="contact mt-5 mb-5 pb-5 pt-5">
-            <div className="container">
+        <section className="mt-5 pt-5 pb-5 pt-5">
+            <div className="container contact">          
                 <div className="row">
                     <div className="col-md-6 mx-auto">
                         <div className="contact-item">
@@ -17,8 +18,8 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>            
+             </div>   
         </section>
     );
 };

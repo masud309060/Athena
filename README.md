@@ -8,3 +8,6 @@ Supported any type of devices.
 * Technology: React, Bootstrap, HTML, CSS. 
 
 ### [Live Link](https://athena-website-design-rsm.netlify.app/) 
+
+### `Thank You`
+> **follow me** [GitHub](https://github.com/masud309060) [LinkedIn](https://www.linkedin.com/in/masud309060/) [Portfolio](https://portfolio-of-md-masud-rana.netlify.app/)
